@@ -1,0 +1,42 @@
+/* Text */
+
+.text-center{
+    text-align: center;
+}
+.tex-left{
+    text-align: left;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+.heading-ubig{
+    font-size: 2.5rem;
+}
+/* Colors */
+
+.bg-grey{
+    background: #333;
+}
+.bg-red{
+    background: #7c1e1e;
+}
+
+.color-grey{
+    color: #333;
+}
+.color-white{
+    color: #fff;
+}
+/* Contanier */
+
+.contanier{
+    max-width: 1100px;
+    margin: 0 auto;
+}

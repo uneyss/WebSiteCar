@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+    grid: auto/ 1em 1fr 1em;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html{
+    font-family: 'Big Shoulders Inline Display', cursive;
+}
+
+/* Navbar */
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    height: 60px;
+    font-size: 1.25rem;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    background: rgb(61, 56, 56);
+    border-radius: 4px;
+}
+
+/* Home */
+
+#main{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+#homeSlider{
+    height: 500px;
+    background: url('../İmages/bmw8.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.slider{
+    width: 100%;
+}
+#homeCaption{
+    height: 500px;
+}
+.caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+/* Description */
+
+.descriptiionHeader{
+    background: crimson;
+    border-bottom: 6px solid #000;
+    height: 60px;
+    color: #fff;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 5px 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.D{
+    padding: 80px 0;
+}
+#description{
+    background: linear-gradient(
+        rgba(0,0,0,.7),
+        rgba(0,0,0,.7)
+    ),
+    url('../İmages/ibre.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+.descriptionTop{
+    color: #fff;
+    opacity: 0.8;
+}
+
+/* CUSTOMERS */
+
+#customers{
+    color: #fff;
+    padding: 1rem;
+}
+.customersBody .contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customersBody .contanier .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.75rem;
+}
+.zoom{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.zoom img{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all .5s ease;
+}
+.items .itemText{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000;
+}
+.items:hover .zoom img{
+    transform: scale(1.25);
+}
+.items:hover h3{
+    color: #333;
+}
+.items:hover .itemText{
+    background: red;
+    color: #333;
+    transition: all .5s ease;
+}
+/* Footer */
+
+.footer{
+    
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: fit-content;
+    background: #7c1e1e;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.left .content p{
+    text-align: justify;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #333;
+    line-height: 40px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+    background: black;
+}
+
